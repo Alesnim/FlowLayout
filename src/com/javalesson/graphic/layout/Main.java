@@ -14,6 +14,7 @@ class FlowLayoutTest extends JFrame
 {
     public FlowLayoutTest()
     {
+
         super("FlowLayout");
         setDefaultCloseOperation( EXIT_ON_CLOSE );
         setSize(300, 120);
@@ -23,6 +24,12 @@ class FlowLayoutTest extends JFrame
          * Определение последовательного расположения
          * с выравниванием компонентов по центру
          */
+
+
+
+
+
+
         container.setLayout(new FlowLayout(FlowLayout.LEFT));
         // добавляем компоненты
         container.add( new JButton("Школа"   ));
